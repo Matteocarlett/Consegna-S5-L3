@@ -1,0 +1,167 @@
+/*Generali*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, "Helvetica Neue", sans-serif;
+    font-size: 1.3rem;
+    color: #832B08;
+    line-height: 1.6;
+}
+
+header {
+    margin: 1rem;
+    background-color: #FEF7E2;
+    border-radius: 70px;
+
+
+}
+
+#logo {
+    width: 30%;
+    padding-right: 1rem;
+}
+
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li{
+    font-size: 0.7em;
+    font-weight: bold;
+    padding: 2%;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+#primo{
+    margin-top: 2rem;
+    width: 90%;
+    border-radius: 40px;
+    padding: 8%;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.4em;
+    text-align: center;
+    line-height: 1.7rem;
+    margin-top: 2rem;
+}
+
+h2{
+    font-size: 1em;
+    font-weight: 800;
+}
+h3{
+    font-weight: 800;
+    font-size: 0.9em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    border-radius: 20px;
+    background-color: #FFDF7F;
+}
+
+/*card*/
+
+#sell .card img {
+    width: 100%;
+}
+
+
+
+.card {
+    border-radius: 15%;
+    margin: 5%;
+    background-color: #FEF7E2;
+    color: #832B08;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card img {
+    border-radius: 15% 15% 0 0;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.Bio{
+    font-size: 0.5em;
+    display: flex;
+}
+
+.Bio span {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+}
+
+
+button {
+    margin:auto;
+    margin-bottom: 1rem;
+    border:none;
+    padding: 2.5%;
+    text-align: center;
+    cursor: pointer;
+    width: 45%;
+    border-radius: 20px;
+    font-size: 0.55em;
+    font-weight: bold;
+    background-color: #FFDF7F;
+    color: #722002;
+}
+
+
+
+/*fine card*/
+
+#news h2{
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+#ourHoney{
+    border-radius: 20px;
+    background-color: #FEF7E2;
+    margin: 1rem;
+}
+#ourHoney h3 {
+    padding-left: 1rem;
+    padding-top: 2rem;
+    text-align: left;
+}
+#ourHoney p{
+    font-size: 0.8em;
+    padding:1rem
+}
+
+#photo{
+    display: flex;
+    justify-content: center;
+}
+#photo img{
+    width: 90%;
+    padding:1rem;
+}
